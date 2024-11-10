@@ -54,7 +54,7 @@ Apply the elbow method on the scaled PCA DataFrame:
 - Fit the K-means model using the scaled PCA DataFrame.
 - Predict clusters and add a new column to store the predicted clusters in a copy of the scaled PCA DataFrame.
 - Create a scatter plot using `hvPlot`:
-  - Set the x-axis to `PC1` and the y-axis to `PC2`.
+  - Set the x-axis to `PCA1` and the y-axis to `PCA2`.
   - Color the points based on the K-means labels.
   - Include the `coin_id` column in the `hover_cols` parameter for identification.
 - Answer the question regarding the impact of using fewer features for clustering with K-means.
